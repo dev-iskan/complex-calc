@@ -1,4 +1,6 @@
 composer:
 	docker run --rm -it -v ${PWD}:/app composer ${command}
-run:
-	docker run --rm -it -v ${PWD}:/app -w /app php:8.0-cli-alpine php index.php
+up:
+	docker-compose --project-name complex-calc up -d
+down:
+	docker-compose --project-name complex-calc down
