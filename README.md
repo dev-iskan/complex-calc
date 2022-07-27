@@ -1,8 +1,8 @@
 ##Test task
 
 ###Complex Arithmetic
-
-``make up`` to run program
+``make init`` to init program and run in background \
+``make up`` to run program \
 ``make down`` to stop program
 
 url : [here](http://localhost:8888/)
